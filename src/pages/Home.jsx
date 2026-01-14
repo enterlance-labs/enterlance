@@ -51,6 +51,12 @@ export default function Home() {
                     https://t.me/enterlance
                   </a>
                 </p>
+                <p>
+                  Contact Us:{" "}
+                  <a className="underline" href="https://t.me/vlascut">
+                    https://t.me/vlascut
+                  </a>
+                </p>
               </div>
             </section>
             <section>
@@ -69,6 +75,14 @@ export default function Home() {
                   href="https://paste.enterlance.com"
                 >
                   Enterlance Paste
+                </a>
+                <a
+                  className="underline"
+                  target="_blank"
+                  href="https://github.com/enterlance-labs/etul"
+                >
+                  Enterlance Telegram User Logger{" "}
+                  <span className="italic">(opensource)</span>
                 </a>
                 <span>
                   Enterlance Ripper <span className="italic">(outdated)</span>
