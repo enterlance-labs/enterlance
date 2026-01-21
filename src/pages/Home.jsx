@@ -84,9 +84,20 @@ export default function Home() {
                   Enterlance Telegram User Logger{" "}
                   <span className="italic">(opensource)</span>
                 </a>
-                <span>
+                <a
+                  className="underline"
+                  target="_blank"
+                  href="https://ripper.enterlance.com"
+                >
                   Enterlance Ripper <span className="italic">(outdated)</span>
-                </span>
+                </a>
+                <a
+                  className="underline"
+                  target="_blank"
+                  href="https://kolbasko.com"
+                >
+                  Simon Kolbasko - Tennis Coach Website
+                </a>
                 <span>
                   Enterlance Stormtrooper{" "}
                   <span className="italic">(outdated)</span>
