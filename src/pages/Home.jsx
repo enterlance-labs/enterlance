@@ -87,6 +87,14 @@ export default function Home() {
                 <a
                   className="underline"
                   target="_blank"
+                  href="https://github.com/enterlance-labs/enterlance-currency"
+                >
+                  Enterlance Currency API{" "}
+                  <span className="italic">(opensource)</span>
+                </a>
+                <a
+                  className="underline"
+                  target="_blank"
                   href="https://ripper.enterlance.com"
                 >
                   Enterlance Ripper <span className="italic">(outdated)</span>
