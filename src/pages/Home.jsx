@@ -72,6 +72,13 @@ export default function Home() {
                 <a
                   className="underline"
                   target="_blank"
+                  href="https://enterlancevpn.com"
+                >
+                  Enterlance VPN Website
+                </a>
+                <a
+                  className="underline"
+                  target="_blank"
                   href="https://paste.enterlance.com"
                 >
                   Enterlance Paste
