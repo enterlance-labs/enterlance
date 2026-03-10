@@ -109,6 +109,14 @@ export default function Home() {
                 <a
                   className="underline"
                   target="_blank"
+                  href="https://atlantrp.vercel.app"
+                >
+                  Atlant RP Minecraft Website{" "}
+                  <span className="italic">(outdated)</span>
+                </a>
+                <a
+                  className="underline"
+                  target="_blank"
                   href="https://kolbasko.com"
                 >
                   Simon Kolbasko - Tennis Coach Website
