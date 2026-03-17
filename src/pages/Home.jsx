@@ -79,6 +79,21 @@ export default function Home() {
                 <a
                   className="underline"
                   target="_blank"
+                  href="https://t.me/enterlancevpn/68"
+                >
+                  Enterlance VPN — Free Telegram Proxy
+                </a>
+                <a
+                  className="underline"
+                  target="_blank"
+                  href="https://github.com/enterlance-vpn/mtproxy"
+                >
+                  Enterlance VPN — MTProxy Guide{" "}
+                  <span className="italic">(opensource)</span>
+                </a>
+                <a
+                  className="underline"
+                  target="_blank"
                   href="https://paste.enterlance.com"
                 >
                   Enterlance Paste
