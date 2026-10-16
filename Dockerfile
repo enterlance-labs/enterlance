@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM oven/bun:1.1.30 AS build
+FROM oven/bun:1 AS builder
 WORKDIR /app
 
 COPY package.json bun.lock ./
@@ -11,8 +11,7 @@ RUN bun run build
 
 FROM nginx:1.27-alpine AS runner
 RUN rm -rf /usr/share/nginx/html/*
-COPY --from=build /app/dist /usr/share/nginx/html
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=builder /app/dist /usr/share/nginx/html
+COPY nginx/default.conf.template /etc/nginx/templates/default.conf.template
 
 EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
