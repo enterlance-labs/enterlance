@@ -32,7 +32,7 @@ export default function Home() {
               <div className="font-medium space-y-[-4px]">
                 <p>Registered Domain: ENTERLANCE.COM</p>
                 <p>Creation Date: 13 September 2023</p>
-                <p>Registry Expiry Date: 13 September 2026</p>
+                <p>Registry Expiry Date: 13 September 2027</p>
                 <p>Registry Domain ID: 2813449722_DOMAIN_COM-VRSN</p>
                 <p>Registrar WHOIS: Serverwhois.reg.com</p>
                 <p>Registrar: REG.RU</p>
